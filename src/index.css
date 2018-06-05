@@ -2,10 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /* background: #ff4d4d; */
+  background: linear-gradient(to right, rgba(255, 77, 77, 0.3), rgba(255, 77, 77, 0.7));
 }
 a {
   text-decoration: none;
-   color: #ff5f5f;
+   color: #571179;
 }
 p,h3 {
   margin: 8px 0;
@@ -18,7 +20,8 @@ button:disabled {
   cursor: not-allowed;
 }
 span {
-  color: #08c299;
+  color: #090089;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 600px) {

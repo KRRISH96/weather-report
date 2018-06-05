@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <div>
           <Route render={(props) => (
-            <div  style={{background: '#00818a'}}>
+            <div  style={{background: 'rgba(255, 77, 77, 0.7)'}}>
             <Container>
               <HeadStyle className='headMedia'>
                 <h1 style={{paddingLeft: '20px'}}><Link to='/'>My Weather</Link></h1>
@@ -28,7 +28,7 @@ class App extends Component {
           <Route exact path='/' render={(props) => (
             <HomeStyle>
               <Container>
-                <h1 style={{color: '#ff6600', textAlign: 'center'}}>Enter a Location</h1>
+                <h1 style={{color: '#524c84', textAlign: 'center'}}>Enter a Location</h1>
                 <div className='homeForm' style={{  border: '2px dashed orange'}}>
                 <Form onSubmitLocation={(location) => {
                   props.history.push({

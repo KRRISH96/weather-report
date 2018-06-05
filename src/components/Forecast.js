@@ -45,11 +45,12 @@ class Forecast extends Component {
     return loading===true
         ? <Loading />
         : <Container>
-            <h1 style={{textAlign: 'center', textTransform: 'capitalize'}}>{this.searchedFor}</h1>
+            <h1 style={{textAlign: 'center', textTransform: 'capitalize', color: '#900048'}}>{this.searchedFor}</h1>
             <ItemStyle>
               {forecast.list.map((item) => (<EachDay  key={item.dt} day={item} onClick={this.handleClick.bind(this,item)}/>))}
             </ItemStyle>
             <div style={{textAlign: 'center'}}>
+            <hr />
               <p style={{margin: '0 0 5px 0'}}>*Click on each day for more info</p>
               <Link to='/'>Go back</Link>
             </div>

@@ -30,10 +30,12 @@ export const FormStyle = styled.div`
 export const ButtonStyle = styled.button`
   border-radius: 5px;
   border: none;
-  background: #ffd933;
-  color: #333366;
+  background: yellow;
+  color: #283149;
   margin-right: 0;
   min-width: 120px
+  font-weight: bold;
+  cursor: pointe
 `
 export const  InputStyle = styled.input`
   margin-right: 10px;
