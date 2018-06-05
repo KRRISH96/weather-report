@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { getForecast } from '../utils/api'
 import { Container,ItemStyle } from './StyledComponents'
-import queryString from 'query-string'
+import queryString from '../query_string/query-string'
 import Loading from './Loading'
 import EachDay from './EachDay'
 import { Link } from 'react-router-dom'
