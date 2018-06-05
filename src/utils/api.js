@@ -1,5 +1,5 @@
 const API_KEY = 'b714ec74bbab5650795063cb0fdf5fbe'
-const baseUrl = 'http://api.openweathermap.org/data/2.5/'
+const baseUrl = 'https://api.openweathermap.org/data/2.5/'
 
 function routeParams (queryString) {
   return Object.keys(queryString).map((key) => {
